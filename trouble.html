@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>バーチャル札幌南高校｜使い方</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        /* 全体 */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f5f8ff;
+            color: #222;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        header {
+            background: #e3f2fd;
+            border-bottom: 1px solid #bbdefb;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+        }
+
+        .header-inner {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 10px 16px;
+        }
+
+        .site-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #0d47a1;
+            margin: 15px 0px 15px 15px;
+        }
+
+        .nav-bar {
+            margin-top: 10px;
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: 0.95rem;
+            color: #0d47a1;
+            background: transparent;
+            border: 1px solid transparent;
+        }
+
+        .nav-link:hover {
+            background: #bbdefb;
+        }
+
+        .nav-link.active {
+            background: #42a5f5;
+            color: #fff;
+            font-weight: 600;
+            border-color: #42a5f5;
+        }
+
+        main {
+            margin-top: 32px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 24px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+            margin-bottom: 18px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #0d47a1;
+            font-size: 1.25rem;
+        }
+
+        .card h3 {
+            margin-bottom: 6px;
+            color: #1565c0;
+            font-size: 1.05rem;
+        }
+
+        .steps {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        .steps li + li {
+            margin-top: 6px;
+        }
+
+        .note {
+            background: #e8f4ff;
+            border: 1px solid #bbdefb;
+            border-radius: 12px;
+            padding: 10px 12px;
+            margin-top: 10px;
+            color: #0d47a1;
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 640px) {
+            .header-inner {
+                padding: 10px 12px;
+            }
+            .site-title {
+                font-size: 1.25rem;
+            }
+            .card {
+                padding: 20px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <p class="site-title">バーチャル札幌南高校</p>
+            <nav class="nav-bar">
+                <a class="nav-link" href="index.html">ホーム</a>
+                <a class="nav-link active" href="howto.html">使い方</a>
+                <a class="nav-link" href="trouble.html">うまく入れないとき</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <div class="card">
+                <h2>バーチャル札幌南高校 への入り方</h2>
+                <p>「バーチャル札幌南高校」は cluster を使って公開されています。スマートフォンでもPCでも入場できます。</p>
+                <ol class="steps">
+                    <li>clusterアプリを<a href="https://cluster.mu/downloads" target="_blank">インストール</a>します。</li>
+                    <li>以下のリンクから cluster のワールドページを開きます。</li>
+                    <li>cluster のログインを求められたら、案内に沿ってサインインします。（初めての方は新規登録）</li>
+                    <li>「遊びに行く」ボタンを押すとアプリが起動し、自動的にワールドへ入ります。</li>
+                </ol>
+                <div class="note">
+                    <strong>ワールドページ：</strong>
+                    <a href="https://cluster.mu/w/02692f9c-0736-48e1-880f-3a8b4ccbe557" target="_blank">https://cluster.mu/w/02692f9c-0736-48e1-880f-3a8b4ccbe557</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>快適に利用するために</h3>
+                <ul class="steps">
+                    <li>通信が不安定な場合は、Wi-Fi が安定している場所で接続してください。</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
